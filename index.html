@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Automatycznie aktualizowane meteogramy Meteo.pl dla wybranych miast.">
+  <title>Meteogramy — prognoza pogody</title>
+  <style>
+    :root{color-scheme:light}
+    *{box-sizing:border-box}
+    body{margin:0;background:#f2f5f9;color:#172b4d;font:16px system-ui,-apple-system,"Segoe UI",sans-serif}
+    header{background:#17376b;color:white;padding:24px 16px;text-align:center}
+    header h1{margin:0 0 6px;font-size:clamp(1.5rem,4vw,2.25rem)}
+    header p{margin:0;color:#d9e9ff}
+    main{max-width:1100px;margin:22px auto;padding:0 16px}
+    section{margin:22px 0;padding:18px;background:white;border-radius:12px;box-shadow:0 2px 12px #00000012}
+    h2{margin:0 0 14px;font-size:1.25rem}
+    img{display:block;width:auto;max-width:100%;height:auto;margin:0 auto;border:1px solid #e5e9f0}
+    a{color:#123d83}
+    .info{border-left:4px solid #346fc2}
+    footer{max-width:1100px;margin:0 auto;padding:20px;color:#52647b;text-align:center;font-size:.85rem}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Meteogramy Meteo.pl</h1>
+  <p>Stare Babice · Warszawa · Gdynia · Kraków</p>
+</header>
+<main>
+  <section class="info">
+    <h2>Oczekiwanie na pierwszą aktualizację</h2>
+    <p>Wykresy zostaną opublikowane automatycznie przez prywatne repozytorium
+    <strong>meteo-generator</strong> po pierwszym pomyślnym uruchomieniu GitHub Actions.</p>
+    <p>Aktualne pliki będą dostępne poniżej. Jeśli obraz jeszcze się nie wyświetla,
+    pierwsza publikacja nie została zakończona.</p>
+  </section>
+  <section><h2>Stare Babice</h2><a href="stare-babice.png"><img src="stare-babice.png" alt="Meteogram: Stare Babice" loading="lazy" onerror="this.style.display='none'"></a></section>
+  <section><h2>Warszawa</h2><a href="warszawa.png"><img src="warszawa.png" alt="Meteogram: Warszawa" loading="lazy" onerror="this.style.display='none'"></a></section>
+  <section><h2>Gdynia</h2><a href="gdynia.png"><img src="gdynia.png" alt="Meteogram: Gdynia" loading="lazy" onerror="this.style.display='none'"></a></section>
+  <section><h2>Kraków</h2><a href="krakow.png"><img src="krakow.png" alt="Meteogram: Kraków" loading="lazy" onerror="this.style.display='none'"></a></section>
+</main>
+<footer>Źródło danych: Meteo.pl · Wykresy generowane automatycznie · Czas lokalny CET/CEST i UTC</footer>
+</body>
+</html>
