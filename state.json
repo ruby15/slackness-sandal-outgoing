@@ -1,0 +1,37 @@
+{
+  "runs": {
+    "um4_60": 1795176000
+  },
+  "fingerprint": "d83e597bfc5a27525f85ca21fe100c6e26314e4e568f2416c898cfeef94434f8",
+  "generated_at": "2026-11-20T20:11:42.358653+00:00",
+  "images": [
+    {
+      "name": "Stare Babice",
+      "file": "stare-babice.png",
+      "model": "um4_60",
+      "lat": 52.25,
+      "lon": 20.85
+    },
+    {
+      "name": "Warszawa",
+      "file": "warszawa.png",
+      "model": "um4_60",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "name": "Gdynia",
+      "file": "gdynia.png",
+      "model": "um4_60",
+      "lat": 54.52,
+      "lon": 18.54
+    },
+    {
+      "name": "Kraków",
+      "file": "krakow.png",
+      "model": "um4_60",
+      "lat": 50.06,
+      "lon": 19.94
+    }
+  ]
+}
