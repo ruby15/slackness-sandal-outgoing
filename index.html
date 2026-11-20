@@ -1,1 +1,26 @@
-<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Meteogramy — prognoza pogody</title><style>body{background:#f2f5f9;color:#172b4d;font:16px system-ui,sans-serif;margin:0}header{background:#17376b;color:white;padding:20px;text-align:center}main{max-width:1100px;margin:auto;padding:16px}section{background:white;margin:20px 0;padding:16px;border-radius:12px;box-shadow:0 2px 12px #0001}img{display:block;max-width:100%;height:auto;margin:auto}h2{margin-top:0}footer{text-align:center;padding:24px;color:#52647b}</style></head><body><header><h1>Meteogramy Meteo.pl</h1></header><main><section><h2>Stare Babice</h2><a href="stare-babice.png?v=b39fc3048c77"><img src="stare-babice.png?v=b39fc3048c77" alt="Meteogram: Stare Babice" loading="lazy"></a></section><section><h2>Warszawa</h2><a href="warszawa.png?v=b39fc3048c77"><img src="warszawa.png?v=b39fc3048c77" alt="Meteogram: Warszawa" loading="lazy"></a></section><section><h2>Gdynia</h2><a href="gdynia.png?v=b39fc3048c77"><img src="gdynia.png?v=b39fc3048c77" alt="Meteogram: Gdynia" loading="lazy"></a></section><section><h2>Kraków</h2><a href="krakow.png?v=b39fc3048c77"><img src="krakow.png?v=b39fc3048c77" alt="Meteogram: Kraków" loading="lazy"></a></section></main><footer>Dane: Meteo.pl • prognoza automatycznie aktualizowana</footer></body></html>
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Meteogramy Meteo.pl: podgląd prognoz dla pięciu miejscowości.">
+<title>Meteogramy — wszystkie miejscowości</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef2f7;color:#142b4e;font:16px system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:#17376b;color:white;padding:24px 16px;text-align:center}
+h1{font-size:clamp(1.5rem,3vw,2.1rem);margin:0 0 5px}header p{margin:0;color:#ddeaff;font-size:.94rem}
+main{max-width:1600px;margin:0 auto;padding:18px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.tile{display:block;background:white;color:inherit;text-decoration:none;border:1px solid #dae3ef;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px #0001;transition:box-shadow .15s,transform .15s}
+.tile:hover,.tile:focus-visible{box-shadow:0 6px 22px #17376b30;transform:translateY(-2px)}
+.tile-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:13px 12px;background:#f8fbff;border-bottom:1px solid #dae3ef}
+.tile-head strong{font-size:1.05rem}.tile-head small{color:#57708c;font-size:.75rem}
+.tile img{display:block;width:100%;height:auto;aspect-ratio:9.45/15.3;object-fit:contain}
+footer{padding:20px;text-align:center;color:#63758b;font-size:.82rem}
+@media(max-width:1000px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
+</style></head><body><header><h1>Meteogramy — prognoza pogody</h1>
+<p>Wybierz miejscowość, aby zobaczyć pełny wykres</p></header><main><div class="grid">
+<a class="tile" href="stare-babice.html"><span class="tile-head"><strong>Stare Babice</strong><small>UM4_60</small></span><img src="stare-babice.png" alt="Miniatura meteogramu: Stare Babice" loading="lazy" onerror="this.style.opacity='.18'"></a>
+<a class="tile" href="warszawa.html"><span class="tile-head"><strong>Warszawa</strong><small>UM4_60</small></span><img src="warszawa.png" alt="Miniatura meteogramu: Warszawa" loading="lazy" onerror="this.style.opacity='.18'"></a>
+<a class="tile" href="gdynia.html"><span class="tile-head"><strong>Gdynia</strong><small>UM4_60</small></span><img src="gdynia.png" alt="Miniatura meteogramu: Gdynia" loading="lazy" onerror="this.style.opacity='.18'"></a>
+<a class="tile" href="krakow.html"><span class="tile-head"><strong>Kraków</strong><small>UM4_60</small></span><img src="krakow.png" alt="Miniatura meteogramu: Kraków" loading="lazy" onerror="this.style.opacity='.18'"></a>
+<a class="tile" href="zgnilocha.html"><span class="tile-head"><strong>Zgniłocha</strong><small>UM4_60</small></span><img src="zgnilocha.png" alt="Miniatura meteogramu: Zgniłocha" loading="lazy" onerror="this.style.opacity='.18'"></a>
+</div></main><footer>Dane: Meteo.pl · aktualizowane automatycznie. Obrazy pojawią się po pierwszej publikacji.</footer></body></html>
