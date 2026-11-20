@@ -2,8 +2,8 @@
   "runs": {
     "um4_60": 1795176000
   },
-  "fingerprint": "d83e597bfc5a27525f85ca21fe100c6e26314e4e568f2416c898cfeef94434f8",
-  "generated_at": "2026-11-20T20:11:42.358653+00:00",
+  "fingerprint": "18c81c985146d32b74cf72bfdafce53cf1e4314472238f5bd2f3fc77ce12a875",
+  "generated_at": "2026-11-20T20:46:59.098511+00:00",
   "images": [
     {
       "name": "Stare Babice",
@@ -32,6 +32,13 @@
       "model": "um4_60",
       "lat": 50.06,
       "lon": 19.94
+    },
+    {
+      "name": "Zgniłocha",
+      "file": "zgnilocha.png",
+      "model": "um4_60",
+      "lat": 53.56,
+      "lon": 20.56
     }
   ]
 }
